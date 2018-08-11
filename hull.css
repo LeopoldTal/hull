@@ -1,0 +1,96 @@
+html,body
+{
+	margin: 0;
+	padding: 0;
+}
+*
+{
+	font-family: sans-serif;
+}
+h1
+{
+	text-align: center;
+	font-family: serif;
+	margin: 0 0 1em 0;
+	padding: 0.7em 0 1em;
+	background: #ccffcc;
+	color: black;
+	border-radius: 0 0 3em 3em;
+}
+#hullDemo
+{
+	margin: 2em;		
+}
+#hullDrawingContainer
+{
+	position: relative;
+	width: 80%;
+	margin: 1em auto;
+	border: 1px solid #006600;
+	height: 60vh;
+	min-width: 300px;
+	min-height: 400px;
+}
+svg#hullDrawing
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+}
+#stepText
+{
+	padding: 0.5em 0;
+	margin: 0.5em ;
+	text-align: center;
+	background: #ccffcc;
+	color: black;		
+}
+#hullBoard
+{
+	display: flex;
+}
+#hullBoard fieldset
+{
+	float: left;
+	margin: 1em 2em;
+	border-width: 1px 0px 0px 1px;
+	border-style: solid;
+	border-color: #006600;
+}
+fieldset select, fieldset button, fieldset input
+{
+	float: left;
+	margin: 0 0.5em;
+}
+#hullDemo form#hullBoard:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+#algorithms
+{
+	margin: 3em;
+}
+#algorithms dt
+{
+	display: block;
+	font-size: larger;
+	font-weight: bold;
+	margin: 0.5em 0;
+	padding: 0.5em 0;
+}
+#algorithms dt:hover, #algorithms dd li:hover
+{
+	background: #ccffcc;
+	color: black;
+}
+#algorithms dd
+{
+	margin: 1em 1em;
+	padding: 0 1em 1em 1em;
+	border-bottom: 1px dotted #006600;
+}
